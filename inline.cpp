@@ -1,4 +1,4 @@
-//g++ hello.cpp -mavx512f -o main
+//g++ hello.cpp -mavx512f -o main  对于avx512需要指定编译选项mavx512f
 #include <immintrin.h>
 #include <iostream>
 
