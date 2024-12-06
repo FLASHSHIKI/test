@@ -1,7 +1,8 @@
 // 计算矩阵—矢量乘法 y = a * x
+// g++ -o test blas.cpp ./lib/libopenblas.a 通过静态库编译
 #include <iostream>
 #include <complex>
-#include "include/cblas.h"
+#include "./include/cblas.h"
 int main() {
     using namespace std;
     typedef complex<double> Comp; // 定义复数类型
